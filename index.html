@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Personal website for Siyuan He, an undergraduate student at the University of Wisconsin–Madison."
+    />
+    <title>Siyuan He | Personal Website</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23c5050c'/%3E%3Cpath d='M18 19h28v7H26v4h17v7H26v5h20v7H18z' fill='white'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="profile-card">
+      <div class="photo-wrap">
+        <img
+          class="portrait"
+          src="images/siyuan-he.jpg"
+          alt="Portrait of Siyuan He"
+          width="600"
+          height="602"
+        />
+      </div>
+
+      <section class="introduction" aria-labelledby="page-title">
+        <p class="eyebrow">About me</p>
+        <h1 id="page-title">Siyuan He</h1>
+        <div class="accent" aria-hidden="true"></div>
+        <p class="bio">
+          Hi! My name is Siyuan He. I am an undergraduate student at the
+          University of Wisconsin–Madison studying Consumer Behavior &amp;
+          Marketplace Studies. I am interested in basketball and soccer.
+        </p>
+
+        <ul class="interests" aria-label="Interests">
+          <li>Basketball</li>
+          <li>Soccer</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Siyuan He</p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
