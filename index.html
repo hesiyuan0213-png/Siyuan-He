@@ -16,31 +16,54 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="profile-card">
-      <div class="photo-wrap">
-        <img
-          class="portrait"
-          src="images/siyuan-he.jpg"
-          alt="Portrait of Siyuan He"
-          width="600"
-          height="602"
-        />
-      </div>
+    <main class="site-content">
+      <section class="profile-card" aria-labelledby="page-title">
+        <div class="photo-wrap">
+          <img
+            class="portrait"
+            src="images/siyuan-he.jpg"
+            alt="Portrait of Siyuan He"
+            width="600"
+            height="602"
+          />
+        </div>
 
-      <section class="introduction" aria-labelledby="page-title">
-        <p class="eyebrow">About me</p>
-        <h1 id="page-title">Siyuan He</h1>
-        <div class="accent" aria-hidden="true"></div>
-        <p class="bio">
-          Hi! My name is Siyuan He. I am an undergraduate student at the
-          University of Wisconsin–Madison studying Consumer Behavior &amp;
-          Marketplace Studies. I am interested in basketball and soccer.
-        </p>
+        <div class="introduction">
+          <p class="eyebrow">About me</p>
+          <h1 id="page-title">Siyuan He</h1>
+          <div class="accent" aria-hidden="true"></div>
+          <p class="bio">
+            Hi! My name is Siyuan He. I am an undergraduate student at the
+            University of Wisconsin–Madison studying Consumer Behavior &amp;
+            Marketplace Studies. I am interested in basketball and soccer.
+          </p>
 
-        <ul class="interests" aria-label="Interests">
-          <li>Basketball</li>
-          <li>Soccer</li>
-        </ul>
+          <ul class="interests" aria-label="Interests">
+            <li>Basketball</li>
+            <li>Soccer</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="painting-section" aria-labelledby="painting-title">
+        <div class="painting-heading">
+          <p class="eyebrow">Art I love</p>
+          <h2 id="painting-title">My Favorite Painting</h2>
+          <p class="painting-name">
+            <cite>The Starry Night</cite>
+            <span>Vincent van Gogh, 1889</span>
+          </p>
+        </div>
+
+        <figure class="painting-frame">
+          <img
+            src="images/the-starry-night.jpg"
+            alt="The Starry Night by Vincent van Gogh, showing a swirling blue night sky above a village"
+            width="1920"
+            height="1520"
+            loading="lazy"
+          />
+        </figure>
       </section>
     </main>
 
